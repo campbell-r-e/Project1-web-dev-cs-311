@@ -1,0 +1,28 @@
+Project 1
+Overview
+
+For this project, select an organization or a product and produce an informational website about your selection. This website must include at least three pages, hyperlinks between the pages, be styled using CSS, and include JavaScript on one page for some interactivity. Content and imagery should not be placeholders, but should by informative about the selected topic.
+
+Learning Objectives
+
+Write HTML to create accessible markup on a page
+Develop a navigable and useable website
+Use CSS and styling best practices to create an approachable user experience
+Employ JavaScript to add interactivity on a page to reduce navigation, introduce playful elements, enhance engagement
+ 
+
+Process
+
+You will be documenting your process in CS331 - Project Documentation.pptx Download CS331 - Project Documentation.pptx. Download and make a copy for your project and be prepared to keep it updated throughout the semester.
+
+
+Deliverables
+
+A link to your project on a web-accessible host such as Github pages
+Your process documentation slide deck with final reflection slides completed
+Access to the source code on Github for review
+ 
+
+Grading / Rubric
+
+Please see the final deliverable assignment for the grading scheme.
