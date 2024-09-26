@@ -1,9 +1,9 @@
-const color = ["violet", "green", "aqua","AliceBlue","Bisque","BlueViolet","Crimson","Gainsboro","LightCoral","MediumAquaMarine","black"
+color = ["violet", "green", "aqua","AliceBlue","Bisque","BlueViolet","Crimson","Gainsboro","LightCoral","MediumAquaMarine","black"
     ,"PaleTurquoise","Sienna","Silver","Turquoise","ForestGreen","FloralWhite","DarkTurquoise","Chocolate","BlanchedAlmond","LightPink","LightSalmon","red","Green","Blue",
     "Aqua","purple","Orange","Pink","Yellow","Blue"];
 
-const background = ["red","Green","Blue","purple"]
-const randomback=Math.floor(Math.random() * background.length);
+background = ["red","Green","Blue"]
+randomback=Math.floor(Math.random() * background.length);
 
 const randomint=Math.floor(Math.random() * color.length);
 document.getElementById("index").style.color = color[randomint];
