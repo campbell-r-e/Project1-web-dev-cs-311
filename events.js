@@ -36,7 +36,7 @@ function getOption() {
     document.getElementById("index6").style.color = output;
     document.getElementById("index7").style.color = output;
     document.getElementById("index8").style.color = output;
-    document.getElementById("index9").style.color = output;
+    
 }
 function Searchbox(){
     //
