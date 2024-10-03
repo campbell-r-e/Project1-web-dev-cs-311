@@ -3,6 +3,9 @@ document.getElementById("index3").style.background = "aqua";
 document.getElementById("index4").style.background = "aqua";
 document.getElementById("index5").style.background = "aqua";
 document.getElementById("Button").style.background = "aqua";
+document.getElementById("Button1").style.background = "aqua";
+var output;
+
 
 function getOption() {
     //
@@ -15,7 +18,11 @@ function getOption() {
         output = "black";
     }
     document.getElementById("Button").style.color = output;
- 
+    document.getElementById("Button1").style.color = output;
+
+    document.getElementById("Search").style.color = output;
+    
+    document.getElementById("index1").style.color = output;
    
 
     document.getElementById("color").style.color = output;
@@ -34,9 +41,11 @@ function getOption() {
    
 
     document.getElementById("index6").style.color = output;
-    document.getElementById("index7").style.color = output;
+    
     document.getElementById("index8").style.color = output;
-    document.getElementById("index9").style.color = output;
+    
+    document.getElementById("Search").style.color = output;
+    output = ""
 }
 function Searchbox(){
     //
@@ -50,8 +59,9 @@ function Searchbox(){
     }
    
     document.getElementById("Button").style.color = output;
+    document.getElementById("Button1").style.color = output;
  
-   
+    document.getElementById("index1").style.color = output;
 
     document.getElementById("color").style.color = output;
     document.getElementById("index2").style.color = output;
@@ -69,11 +79,13 @@ function Searchbox(){
    
 
     document.getElementById("index6").style.color = output;
-    document.getElementById("index7").style.color = output;
     document.getElementById("index8").style.color = output;
-    document.getElementById("index9").style.color = output;
+   
+   
+   
 
     document.getElementById('Search').value = "";
+    output = ""
 
  
 }

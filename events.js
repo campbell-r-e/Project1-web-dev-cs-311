@@ -51,7 +51,7 @@ function Searchbox(){
    
     document.getElementById("Button").style.color = output;
  
-   
+    document.getElementById("index1").style.color = output;
 
     document.getElementById("color").style.color = output;
     document.getElementById("index2").style.color = output;
@@ -71,7 +71,7 @@ function Searchbox(){
     document.getElementById("index6").style.color = output;
     document.getElementById("index7").style.color = output;
     document.getElementById("index8").style.color = output;
-    document.getElementById("index9").style.color = output;
+   
 
     document.getElementById('Search').value = "";
 

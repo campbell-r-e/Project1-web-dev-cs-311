@@ -88,3 +88,30 @@ label{
 #test{
     font-size: 30px;
 }
+
+#Button{
+    
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    font-size: larger;
+}
+#Search{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    font-size: larger;
+  
+}
+#Button1{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    font-size: larger;
+}

@@ -7,6 +7,7 @@
    
 </head>
 <body>
+    <h1 id = "index1">Helpful Amataeur Radio Videos</h1>
     <div  class = "navigation"id = "nav" >
         <form action="events.html" >
             <input type="submit" value="Events" id="index2"/>
@@ -21,14 +22,19 @@
         
 
         <form action="index.html" >
-            <input id="index4" type="submit" value="Main Page" />
+            <input id="index5" type="submit" value="Main Page" />
         </form>
          
        
      </div>
-     <h1>Helpful Amataeur Radio Videos</h1>
+    
      <div class="Body">
-        <label for="color">Text color:</label>
+        <br> 
+        <input type="text" name="search" placeholder="color" id = "Search">
+        <br>
+        <button onclick="Searchbox()" id="Button1"> Search</button>
+        <br> 
+        <label id = "index6" for="color">Text color:</label>
 
         <select name="color" id="color">
         <option value="default">default</option>
@@ -38,8 +44,9 @@
         <option value="orange">orange</option>
      
         </select>
+        <button onclick="getOption()" id="Button"> Select color</button>
 
-       <p>Here are some helpful amateur radio Youtube videos about Amataeur Radio.
+       <p id = "index8">Here are some helpful amateur radio Youtube videos about Amataeur Radio.
        </p>
 
        <iframe width="560" height="315" src="https://www.youtube.com/embed/naJ4V0L1GUM?si=yR7FCGLaLJUOyv6Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -56,4 +63,5 @@
     
 </body>
 <link rel="stylesheet" type="text/css" href="help.css" /> 
+<script src="help.js"></script>
 </html>

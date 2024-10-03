@@ -6,7 +6,8 @@
     <title>Licensing</title>
 </head>
 <body>
-   
+    <h1>Licensing information</h1>
+    <br> 
     <div  class = "navigation"id="nav" >
         <form action="events.html" >
             <input type="submit" value="Events" id="index2"/>
@@ -25,6 +26,12 @@
         </form>
      </div>
      <br>
+     <input type="text" name="search" placeholder="color" id = "Search">
+     <br>
+
+     <button onclick="Searchbox()" id="Button1"> Search</button>
+     
+     <br>
      <label for="color">Text color:</label>
 
      <select name="color" id="color">
@@ -35,7 +42,12 @@
      <option value="orange">orange</option>
   
      </select>
-     <h1>Licensing information</h1>
+    
+
+     <br>
+     <button onclick="getOption()" id="Button"> Select color</button>
+     <br>
+  
 
      <img src="front.jpg" alt="Picture of a Icom HF plus 50MHZ radio"width="800" height="800" id="index10">
     

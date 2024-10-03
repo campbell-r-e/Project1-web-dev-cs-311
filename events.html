@@ -8,18 +8,19 @@
   
 </head>
 <body>
+    <h1 id = "index1">Amateur Radio Nets and Events</h1>
     <div  class = "Navigation" id = "nav">   
          <form action="clubs.html" >
-        <input type="submit" value="Clubs" id="index3"/>
+        <input type="submit" value="Clubs" id="index2"/>
     </form>
 
     <form action="Licensing.html" >
-        <input id="index4" type="submit" value="Licensing" />
+        <input id="index3" type="submit" value="Licensing" />
     </form>
     
      
     <form action="help.html" >
-        <input type="submit" value="Helpful Amateur Radio Videos" id="index5"/>
+        <input type="submit" value="Helpful Amateur Radio Videos" id="index4"/>
     </form>
 
 
@@ -34,10 +35,14 @@
   
 
      <div class = "Body">
-       <h1>Amateur Radio Nets and Events</h1>
+        <br> 
+        <input type="text" name="search" placeholder="color" id = "Search">
+        <br>
+        <button onclick="Searchbox()" id="Button1"> Search</button>
+        <br> 
 
 
-      <label for="color">Text color:</label>
+      <label id = "index6" for="color">Text color:</label>
 
      <select name="color" id="color">
      <option value="default">default</option>
@@ -45,12 +50,14 @@
     <option value="green">green</option>
     <option value="blue">blue</option>
      <option value="orange">orange</option>
+    
   
      </select>
-      <p>Their is only one Amateur radio club in Muncie that has a public calendar so I shared the events for that club below.
+     <button onclick="getOption()" id="Button"> Select color</button>
+      <p id = "index7">Their is only one Amateur radio club in Muncie that has a public calendar so I shared the events for that club below.
         This calendar includes the Amateuar radio nets for the area and the reapeters they are held on. 
       </p>
-      <h2>Muncie Area Amateur Radio Club Public calendar</h2>
+      <h2 id = "index8">Muncie Area Amateur Radio Club Public calendar</h2>
       <iframe id = "calendar"
       src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&bgcolor=%23ffffff&src=d2I5aHhnQGdtYWlsLmNvbQ&src=cG9mNmg0ZW5xamplc3NycG91b2trZHVlZGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4&color=%23F6BF26&color=%2333B679&color=%23EF6C00" 
       style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no">
@@ -62,4 +69,5 @@
     
 </body>
 <link rel="stylesheet" type="text/css" href="events.css" /> 
+<script src="events.js"></script>
 </html>

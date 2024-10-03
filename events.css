@@ -65,3 +65,39 @@ img{
     height: 30px;
     width: 300px;
 }
+
+
+
+label{
+    display: block; 
+    text-align: center; 
+    margin-bottom: 10px;
+    font-size:x-large;
+}
+
+#Button{
+    
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    font-size: larger;
+}
+#Search{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    font-size: larger;
+  
+}
+#Button1{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    font-size: larger;
+}
