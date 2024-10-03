@@ -6,7 +6,8 @@
     <title>Licensing</title>
 </head>
 <body>
-    <div  class = "container" >
+   
+    <div  class = "navigation"id="nav" >
         <form action="events.html" >
             <input type="submit" value="Events" id="index2"/>
         </form> 
@@ -23,10 +24,66 @@
             <input type="submit" value="Helpful Amateur Radio Videos" id="index5"/>
         </form>
      </div>
+     <br>
+     <label for="color">Text color:</label>
+
+     <select name="color" id="color">
+     <option value="default">default</option>
+     <option value="red">red</option>
+    <option value="green">green</option>
+    <option value="blue">blue</option>
+     <option value="orange">orange</option>
+  
+     </select>
      <h1>Licensing information</h1>
 
      <img src="front.jpg" alt="Picture of a Icom HF plus 50MHZ radio"width="800" height="800" id="index10">
-     
+    
+     <div class ="Body">
+        <p>For Amateur Radio their is three levels of licenses. </p>
+        <ol id="list"value="Licenses from entry level to highest level">
+            <li>Technician</li>
+            <li>General</li>
+            <li>Amateur Extra</li>
+          </ol>
+        <p>The Technician class license allows you to have all Amataeur Radio privleges above 50mhz and Technicians have some privleges below
+            30 mhz but they are mostly morse code or data emmissions. The General Class license gives you most HF privleges which are frequncies 
+            below 30 mhz.The Amateur Extra class license on the other hand gives you all Amataeur radio frequncy privleges. 
+        </p>
+        <br> 
+        <img src="BandChart.png" alt="Picture of Amateur Radio frequncy privleges"width="800" height="800" id="index10">
+        <br>
+        <a href="techpriv.txt" download alt="Technician class privleges text file" id = "a">
+            Technician privleges in a text format. Click here 
+          </a>
+          <br>
+
+          <a href="generalpriv.txt" download alt="General privleges text file" id = "b">
+            General class privleges in a text format. Click here 
+          </a>
+          <br>
+
+
+          <a href="extrapriv.txt" download alt="Extra Class privleges text file" id = "c">
+            Amateur Extra class privleges in a text format. Click here 
+          </a>
+          <br>
+          <H2>Test study Information</H2>
+        <p id = "test">The first license test you would take in Amateur Radio is the Technician class license. 
+            The Technician test has 35 questions and they are all multiple choice. 
+            You can study for each test using books or online resources.
+            I would recomend using a website called  <a href="https://hamstudy.org/" target="_blank" alt = "Link to HamStudy">
+            HamStudy.
+            </a>. Hamstudy allows you to take practice tests for all the questions in the question pool. The program even has a flash card mode to drill you on all the 
+            questions in the question pool.Their are also lots of youtube videos that will help you. After your are ready for the test you need to schecdule a test session 
+            to take the test. hamstudy allows for you to register for exams as well. You can take the exam online or in person. Most tests are 15 dollars and some are offerd for free. 
+            I would also recomend contacting a club near you and ask them if they are planning any test sessions. 
+
+        </p>
+
+        <h3>After you get licensed have fun and get on the radio. </h3>
+     </div>
     
 </body>
+<link rel="stylesheet" type="text/css" href="Licensing.css" /> 
 </html>
