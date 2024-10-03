@@ -47,7 +47,7 @@ document.getElementById("index9").style.color = color[randomint];
 
 document.getElementById("index10").style.color = color[randomint];
 //index11
-document.getElementsByClassName("container").style.color = color[randomint];
+
 
 // background
 
